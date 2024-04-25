@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type="text"], input[type="number"], textarea {
+            border-radius: 9px;
+        }
+
+        .nn {
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+
+        table {
+            background-color: antiquewhite;
+            margin-top: 250px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        nav {
+            background-color: #38343453;
+            padding: 10px 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        nav ul li a:hover {
+            color: #ffd700;
+        }
+
+        .header,
+        .rooms-header,
+        .offers-header {
+            padding-top: 50px;
+        }
+    </style>
+</head>
+<body style="background-color: rgb(235, 204, 163)">
+    <nav>
+        <ul>
+            <li><a href="hotel.html">Home</a></li>
+            <li><a href="booking.html">booking</a></li>
+            <li><a href="registration.html">registration</a></li>
+            <li><a href="About us.html">About us</a></li>
+            <li><a href="login.html">login</a></li>
+        </ul>
+    </nav>
+    <h1 align="center">contact</h1>
+
+    <form action="">
+        <table style="border-radius:7px ;background-color: rgba(250, 235, 215, 0);" align="center">
+            <h3></h3>
+            <i class="fas fa-phone"></i>   -706904010 <br>
+            <i class="fas fa-envelope"></i>     -hotel@gmail.com <br>
+            <i class="fas fa-map-marker-alt"></i>  - 123 Anywhere St.,
+            Any City ST 12345 <br>
+            <td><h3> contact form</h3></td>
+            <tr>
+                <td><label for="fn1">Name</label></td>
+                <td><input type="text" name="fn" id="fn1" placeholder=" "></td>
+            </tr>
+            <tr>
+                <td><label for="em">Email </label></td>
+                <td>
+                  
+                    <input type="text" name="em" id="em1 " placeholder="">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="phone">Phone</label></td>
+                <td>
+                  
+                    <input type="number" placeholder="">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="submit" class="nn">submit</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
