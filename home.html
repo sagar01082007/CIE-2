@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sagar.css"/>
+    <title>The Wellhall Resort & Spa Hotel</title>
+    <style>
+        .header {
+            color: #ffffff;
+            padding: 500px;
+            text-align: center;
+            background-image: url('Home.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .rooms-header {
+            color: #000;
+            padding: 350px;
+            background-color: blanchedalmond;
+            text-align: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .offers-header {
+            color: #000000;
+            padding: 350px;
+            background-color: blanchedalmond;
+            text-align: center; 
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        body {
+            margin-bottom: 20px;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .container img {
+            width: 200px;
+            height: 200px;
+            margin: 10px; 
+            display: flex;
+        }
+        .container .card-info {
+            color: rgb(0, 0, 0); 
+            text-align: center;
+        }
+        nav {
+            background-color: #2d26263d; 
+            padding: 10px 0;
+            text-align: center; 
+            position: sticky; 
+            top: 0;
+            z-index: 1000; 
+        }
+
+        nav ul {
+            list-style-type: none; 
+            margin: 0; 
+            padding: 0; 
+        }
+
+        nav ul li {
+            display: inline; 
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff; 
+            text-decoration: none; 
+            font-weight: bold; 
+            font-size: 16px; 
+        }
+
+        nav ul li a:hover {
+            color: #ffd700; 
+        }
+        .header,
+        .rooms-header,
+        .offers-header {
+            padding-top: 50px; 
+        }
+    
+    </style>
+</head>
+<body>
+      <nav>
+        <ul>
+            <li><a href="booking.html">Booking</a></li>
+            <li><a href="registration.html">registration</a></li>
+           <li><a href="contact.html">contact</a></li>
+            <li><a href="About us.html">About</a></li>
+            <li><a href="login.html">login</a></li>
+            
+            
+           
+        </ul>
+    </nav>
+
+   
+    <div class="header">
+        <h1><font size="1px">WELCOME TO</font></h1>
+        <i><h2><font size="20 px">The Wellhall</font></h2></i>
+        <h2><font size="5 px">Resort & Hotel</font></h2>
+    </div>
+
+    <a id="scrollTarget"></a>
+
+    <div class="rooms-header">
+        <i><h2><font size="20 px">Rooms</font></h2></i>
+    
+    <a id="scrollTarget"></a>
+
+    <div class="container" >
+        <div class="card-info"> 
+        <img src="r1.jpg" width="30%" height="30%">
+
+        <div class="card-info">
+            <h4>Dilux Class</h4>
+            <p> 2 adults| 1 child below 7<br>
+                form $300 a night</p>
+        </div>
+       </div>
+        <div class="card-info">
+        <img src="r2.jpg" alt="Placeholder Image 2">
+        <div class="card-info">
+            <h4>Luxsary Class</h4>
+            <p>2adults| 1 child below 7 <br>
+                form $ 400 a night</p>
+        </div>
+        </div>
+        <div class="card-info">
+        <img src="r3.jpg" alt="Placeholder Image 3">
+        
+        <div class="card-info">
+            <h4>Business Class</h4>
+            <p> 4 adults|2 children below7<br>
+                form $500 a night</p>
+        </div>
+    </div>
+          <div class="rooms-header">
+           <i> <h2> <font>The Family <br> Suite</font></h2></i>
+        <a id="scrollTarget"></a>
+        <img src="full.jpg" width="1000px" height="700px">
+        <div class="card-info">
+            <h4>The Family<br>
+              Suite</h4>
+            <p>Showcase the best your property has to offer by<br>
+               highlighting one of your accommodations. add a<br>
+               flattering photo then describe the room's best 
+                feature.<br>form $1000 a night</p>
+        </div>
+      </div>
+    </div>
+
+</div>
+    <script>
+        window.onload = function() {
+            var target = document.getElementById('scrollTarget');
+            target.scrollIntoView({ behavior: 'smooth' });
+        };
+
+        
+    </script>
+<div class="offers-header">
+    
+    <i><h2><font size="20 px">Offers</font></h2></i>
+    <a id="scrollTarget"></a>
+
+    <div class="container" >
+        
+        <div class="card-info">
+        <img src="o3.png" width="30%" height="30%">
+
+        <div class="card-info"><font style="color: #000;">
+            <h4>Early Bird Discount</h4>
+            <p> List your offers promos or special<br>
+                membership privileges and perks here to<br>
+                entice people to book your property.<br>
+            </p>
+        </div></font>
+        </div>
+        <div class="card-info">
+        <img src="02.png" alt="Placeholder Image 2">
+        <div class="card-info"><font style="color: #000;">
+            <h4>Wellhall Members Club</h4>
+            <p>List your offers promos or special<br>
+                membership privileges and perks here to<br>
+                entice people to book your property.<br> </p>
+        </div></font>
+        </div>
+       <div class="card-info">
+        <img src="o1.png" alt="Placeholder Image 3">
+        <div class="card-info"><font style="color: #000;">
+            <h4>Book 3 Nights,<br>
+                Get 1 Nights Free <br> </h4>
+            <p>List your offers promos or special<br>
+                membership privileges and perks here to<br>
+                entice people to book your property.<br></p></font>
+        </div>        
+       </div>
+</div>
+</div>
+<a id="scrollTarget"></a>
+
+
+
+</body>
+</html>
